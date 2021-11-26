@@ -17,6 +17,7 @@ class Vote extends Model
      */
     protected $fillable = [
         'type',
+        'user_id',
     ];
 
     public function votable()
